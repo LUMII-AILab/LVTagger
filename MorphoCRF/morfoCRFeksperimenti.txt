@@ -1329,6 +1329,30 @@ real	41m0.358s
 user	40m57.658s
 sys	0m17.288s
 
+86. relīze 2.5.12 (kā citiem produkcijas modeļiem, nav godīgs mērījums jo trenēts arī uz testa datiem)
+Evaluation results:
+	Correct tag:	97.7%	871 mismatches
+	Correct lemma:	99.2%	292 mismatches
+	Correct all:	97.1%	1075 mismatches
+Per-feature error rate summary (for those words that actually have such a feature)
+Laiks :  0.35%
+Number :  1.22%
+Person :  0.19%
+Darbības vārda tips :  1.59%
+Prievārdiskais apstākļa vārds :  0.19%
+Lietvārda tips :  0.04%
+Part of speech :  0.77%
+Vietniekvārda tips :  0.62%
+Case :  1.38%
+Gender :  0.43%
+Mood :  0.24%
+Definiteness :  0.09%
+Rekcija :  7.59%
+
+real	45m15.134s
+user	42m8.962s
+sys	2m42.417s
+
 TODO - dabūt novērtījumu katra varianta ticamībai vajag....
 TODO - notestēt vai teikuma beigu tagi </s> neatstāj efektu vai ir pluss vai mīnuss
 TODO - notestēt, kā ir ja tagerim kā signālu padod, no kuras grupas lemma/tags ir nācis
