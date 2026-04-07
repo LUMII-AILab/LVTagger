@@ -10,7 +10,7 @@ FILE="lv-morpho-model.ser.gz"
 
 if [ ! -f "$FILE" ] || [ ! -f ".release-$FILE" ] || [ `cat .release-$FILE` != "$RELEASE" ]; then
 	echo "Downloading models..."
-	curl -L -O https://github.com/PeterisP/LVTagger/releases/download/$RELEASE/$FILE
+	curl -L -O https://github.com/LUMII-AILab/LVTagger/releases/download/$RELEASE/$FILE
 	echo $RELEASE > .release-$FILE
 else
 	echo "Models up-to-date"

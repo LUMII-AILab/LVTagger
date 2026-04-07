@@ -5,10 +5,10 @@
 	<groupId>lv.ailab.morphology</groupId>
 	<artifactId>tagger</artifactId>
 	<packaging>jar</packaging>
-	<version>2.5.15-SNAPSHOT</version>
+	<version>2.5.15</version>
 	<name>Stanford NLP-based POS and NER tagger for Latvian</name>
 	<description>Stanford NLP-based POS and NER tagger for Latvian</description>
-	<url>https://github.com/PeterisP/LVTagger</url>
+	<url>https://github.com/LUMII-AILab/LVTagger</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -31,9 +31,9 @@
 	</developers>
 
 	<scm>
-		<connection>scm:git:git@github.com:peterisp/lvtagger.git</connection>
-		<developerConnection>scm:git:git@github.com:peterisp/lvtagger.git</developerConnection>
-		<url>git@github.com:peterisp/lvtagger.git</url>
+		<connection>scm:git:git@github.com:LUMII-AILab/LVTagger.git</connection>
+		<developerConnection>scm:git:git@github.com:LUMII-AILab/LVTagger.git</developerConnection>
+		<url>git@github.com:LUMII-AILab/LVTagger.git</url>
 	</scm>
 
 	<distributionManagement>
@@ -47,7 +47,7 @@
 		<dependency>
 			<groupId>lv.ailab.morphology</groupId>
 			<artifactId>morphology</artifactId>
-			<version>2.5.15-SNAPSHOT</version>
+			<version>2.5.15</version>
 		</dependency>
 		<dependency>
 			<groupId>lv.ailab.morphology</groupId>
