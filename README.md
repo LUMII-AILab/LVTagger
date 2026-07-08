@@ -51,7 +51,7 @@ For morphological tagging in current test data we are seeing accuracy of 92.8% f
 
 ## COMPILING FROM SOURCE
 
-Use maven to compile and download dependencies (morphological word analysis module from https://github.com/LUMII-AILab/mMrphology and the pretrained postagging model).
+Use maven to compile and download dependencies (morphological word analysis module from https://github.com/LUMII-AILab/mMrphology and the pretrained postagging model). `mvn clean install` will create JAR without dependencies, `mvn clean install -P with-dep` will create JAR with dependencies as well.
 
 ## DOWNLOADS
 
