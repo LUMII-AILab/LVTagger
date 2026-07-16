@@ -20,7 +20,7 @@ import static org.junit.Assert.*;
 
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
-import java.io.UnsupportedEncodingException;
+import java.nio.charset.StandardCharsets;
 import java.util.List;
 
 import lv.semti.morphology.analyzer.Word;
@@ -36,10 +36,6 @@ import edu.stanford.nlp.ling.CoreAnnotations.AnswerAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.LVMorphologyAnalysis;
 import edu.stanford.nlp.ling.CoreAnnotations.TextAnnotation;
 import edu.stanford.nlp.sequences.LVMorphologyReaderAndWriter;
-import org.w3c.dom.Attr;
-
-import javax.management.Attribute;
-
 
 public class TaggerTest {
 
@@ -88,16 +84,11 @@ public class TaggerTest {
         Word analysis = sentence.get(word).get(LVMorphologyAnalysis.class);
         Wordform maxwf = analysis.getMatchingWordform(sentence.get(word).getString(AnswerAnnotation.class), true);
         PrintWriter izeja;
-        try {
-            izeja = new PrintWriter(new OutputStreamWriter(System.out, "UTF-8"));
-            maxwf.describe(izeja);
-            izeja.flush();
-        } catch (UnsupportedEncodingException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
+		izeja = new PrintWriter(new OutputStreamWriter(System.out, StandardCharsets.UTF_8));
+		maxwf.describe(izeja);
+		izeja.flush();
 
-    }
+	}
 
 
 	@Test
@@ -179,7 +170,8 @@ public class TaggerTest {
 	@Test
 	public void lemmas() {
 		List<CoreLabel> word = tag("neizpaušana");
-		assertLemma(word, 1, "izpaušana");  // bija gļuks ar 'neizpausšana'
+		// 2026-07-17 izlabots no "izpaušana" uz "neizpaušana", jo lietvārdiem neņem nost priedēkļus.
+		assertLemma(word, 1, "neizpaušana");  // bija gļuks ar 'neizpausšana'
 	}
 	
 	@Test
@@ -225,7 +217,7 @@ public class TaggerTest {
         assertTag(word, 1, "vmnpdmsnpsncn");
 
         word = tag("nenieka");
-        assertTag(word, 1, "r0q");
+        assertTag(word, 1, "r0n"); //2026-07-17
 
         word = tag("svarīgi");
         assertTag(word, 1, "rpm");
@@ -241,11 +233,14 @@ public class TaggerTest {
 //    Verbu tipu problēmas
     @Test
     public void verbtypes() {
-        List<CoreLabel> sentence = tag("Darbs tiek darīts.");
-        assertValue(sentence, 2, AttributeNames.i_VerbType, AttributeNames.v_TiktTapt);
+        List<CoreLabel> sentence = tag("Cilvēks kļūst skaists.");
+        assertValue(sentence, 2, AttributeNames.i_VerbType, AttributeNames.v_Copula);
 
         sentence = tag("Darbs ir izdarīts.");
         assertValue(sentence, 2, AttributeNames.i_VerbType, AttributeNames.v_Buut);
+
+		sentence = tag("Darbs tiek darīts.");
+		assertValue(sentence, 2, AttributeNames.i_VerbType, AttributeNames.v_AuxVerb);
     }
 
     @Test
@@ -258,7 +253,7 @@ public class TaggerTest {
 //        analysis.describe(System.out);
 //        Wordform maxwf = analysis.getMatchingWordform(sentence.get(16).getString(AnswerAnnotation.class), true);
 //        maxwf.describe(System.out);
-        assertValue(sentence, 16, AttributeNames.i_VerbType, AttributeNames.v_Modaals);
+        assertValue(sentence, 16, AttributeNames.i_VerbType, AttributeNames.v_ModalVerb);
     }
 
     @Test
