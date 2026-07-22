@@ -67,7 +67,7 @@ public class NerTest {
 
 	@Test
 	public void sample() throws Exception {
-		List<CoreLabel> doc = ner.classify("test/ner/sample_ner.conll");
+		List<CoreLabel> doc = ner.classify("sample_ner.conll");
 		print(doc);
 		testAll(doc);
 	}

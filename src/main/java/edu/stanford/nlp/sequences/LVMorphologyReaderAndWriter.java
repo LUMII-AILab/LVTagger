@@ -45,7 +45,7 @@ import lv.semti.morphology.corpus.Statistics;
 import javax.swing.text.html.HTML;
 
 /**
- * DocumentReader for column format, running LV morphology afterwards
+ * DocumentReader for column format, running cached LV morphology afterward.
  *
  * @author Pēteris Paikens
  */
@@ -74,6 +74,8 @@ public class LVMorphologyReaderAndWriter implements DocumentReaderAndWriter<Core
 		analyzer.enableGuessing = true;
 		analyzer.enablePrefixes = true;
 		analyzer.enableAllGuesses = true; //TODO - check the effect on morphotagging accuracy
+		analyzer.enableAnalysisCache = true;
+		analyzer.clearCache();
 	}
 
 	/**

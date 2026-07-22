@@ -125,6 +125,7 @@ public class MergeEntityInformation {
 		System.out.printf("\t%d no tiem vismaz %d reizes.\n\n", counter.size(), filter_floor);
 		
 		Analyzer analyzer = new Analyzer("dist/Lexicon.xml");
+		analyzer.enableAnalysisCache = true;
 		
 		for (Entry<String, Double> entry: counter.entrySet()) {
 			String key = entry.getKey();

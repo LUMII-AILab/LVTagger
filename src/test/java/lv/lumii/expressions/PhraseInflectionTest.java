@@ -42,6 +42,7 @@ public class PhraseInflectionTest
 		analyzer.guessParticiples = false;		
 		analyzer.guessInflexibleNouns = true;
 		analyzer.guessVerbs = false;
+		analyzer.enableAnalysisCache = true;
 		  
 		LVMorphologyReaderAndWriter.setPreloadedAnalyzer(analyzer);		
 	}
@@ -221,7 +222,7 @@ public class PhraseInflectionTest
 		assertEquals("Latvijas Lielo pilsētu asociācijā", 
 				new Expression("Latvijas Lielo pilsētu asociācija", "org", true).inflect(AttributeNames.v_Locative));
 		
-		assertEquals("akcijas kopējajā vērtībā", //TODO - te varbūt labāk bez noteiktās formas, bet citur gan ir svarīgi (augstākā izglītība vs augsta izglītība) 
+		assertEquals("akcijas kopējā vērtībā", //TODO - te varbūt labāk bez noteiktās formas, bet citur gan ir svarīgi (augstākā izglītība vs augsta izglītība)
 				new Expression("akcijas kopējā vērtība", "sum", true).inflect(AttributeNames.v_Locative));
 		
 		assertEquals("ANO", 
