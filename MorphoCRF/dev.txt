@@ -118,7 +118,7 @@ Dakšas	npmpn4	Dakša	m-p10030-p7s1w15
 Andrejs	npmsn1	Andrejs	m-p10030-p7s1w17
 un	cc	un	m-p10030-p7s1w18
 Ivars	npmsn1	Ivars	m-p10030-p7s1w19
-Kasparoviči	npmsn1	Kasparovičs	m-p10030-p7s1w20
+Kasparoviči	npmpn1	Kasparovičs	m-p10030-p7s1w20
 <g />
 .	zs	.	m-p10030-p7s1w21
 </s>
@@ -18517,7 +18517,7 @@ pēc	spsg	pēc	m-p8757-p13s3w15
 niršanas	ncfsg4	niršana	m-p8757-p13s3w16
 vai	cc	vai	m-p8757-p13s3w17
 peldes	ncfsg5	pelde	m-p8757-p13s3w18
-Karību	npfda4	Karības	m-p8757-p13s3w19
+Karību	npfdg4	Karības	m-p8757-p13s3w19
 jūrā	ncfsl4	jūra	m-p8757-p13s3w20
 <g />
 ,	zc	,	m-p8757-p13s3w21
@@ -18716,7 +18716,7 @@ kaijas	ncfpn4	kaija	m-d1293-p2s8w7
 .	zs	.	m-d1293-p2s8w8
 </s>
 <s>
-Tām	pd0fpdn	tā	m-d1293-p2s9w1
+Tām	pd3fpdn	tā	m-d1293-p2s9w1
 neviens	pi0msny	neviens	m-d1293-p2s9w2
 nav	vcnipii30ay	būt	m-d1293-p2s9w3
 izstāstījis	vmnpdmsnasnpn	izstāstīt	m-d1293-p2s9w4
@@ -18966,7 +18966,7 @@ purva	ncmsg1	purvs	m-d1293-p5s2w8
 <g />
 ,	zc	,	m-d1293-p5s2w10
 un	cc	un	m-d1293-p5s2w11
-pašā	pi0msnn	pats	m-d1293-p5s2w12
+pašā	pg0msnn	pats	m-d1293-p5s2w12
 galā	ncmsl1	gals	m-d1293-p5s2w13
 tārtiņš	ncmsn1	tārtiņš	m-d1293-p5s2w14
 <g />
@@ -19024,7 +19024,7 @@ albūms	ncmsn1	albūms	m-d1293-p6s2w20
 ,	zc	,	m-d1293-p6s2w21
 mobilais	afmsnyp	mobils	m-d1293-p6s2w22
 nav	vcnipii30ay	būt	m-d1293-p6s2w23
-nekāds	pi0msnn	nekāds	m-d1293-p6s2w24
+nekāds	pi0msny	nekāds	m-d1293-p6s2w24
 mobīlais	afmsnyp	mobīls	m-d1293-p6s2w25
 <g />
 !	zs	!	m-d1293-p6s2w26
@@ -23680,7 +23680,7 @@ joprojām	r0n	joprojām	m-d177-p1506s1w11
 vēl	r0n	vēl	m-d177-p1506s1w12
 var	vonipi330an	varēt	m-d177-p1506s1w13
 nošaut	vmnn0t1000n	nošaut	m-d177-p1506s1w14
-nezināma	vmnpdfsnppnpn	zināt	m-d177-p1506s1w15
+nezināma	vmnpdfsnppnpy	zināt	m-d177-p1506s1w15
 vācu	ncmdg1	vāci	m-d177-p1506s1w16
 karavīra	ncmsg1	karavīrs	m-d177-p1506s1w17
 raidīta	vmnpdfsnpsnpn	raidīt	m-d177-p1506s1w18
@@ -24565,7 +24565,7 @@ neatkarīgā	afmsgyp	neatkarīgs	m-p13513-p2s10w34
 pavārmākslas	ncfsg4	pavārmāksla	m-p13513-p2s10w35
 mīlētāja	ncmsg1	mīlētājs	m-p13513-p2s10w36
 Havjēra	npmsg1	Havjērs	m-p13513-p2s10w37
-Hosē	npmsg0	Hosē	m-p13513-p2s10w38
+Hosē	npm000	Hosē	m-p13513-p2s10w38
 Garsijas	npmsg4	Garsija	m-p13513-p2s10w39
 improvizācija	ncfsn4	improvizācija	m-p13513-p2s10w40
 ar	spsa	ar	m-p13513-p2s10w41

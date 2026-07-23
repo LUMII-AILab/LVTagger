@@ -5977,7 +5977,7 @@ stāvus	r0n	stāvus	m-p13853-p14s3w10
 iznirst	vmnipi130an	iznirt	m-p13853-p14s3w11
 no	spsg	no	m-p13853-p14s3w12
 gultas	ncfsg4	gulta	m-p13853-p14s3w13
-visnegaidītākajos	vmnpdmplpsysn	gaidīt	m-p13853-p14s3w14
+visnegaidītākajos	vmnpdmplpsysy	gaidīt	m-p13853-p14s3w14
 brīžos	ncmpl2	brīdis	m-p13853-p14s3w15
 <g />
 .	zs	.	m-p13853-p14s3w16
@@ -12552,7 +12552,7 @@ saņemšanas	ncfsg4	saņemšana	m-p135-p13s5w34
 <g />
 ,	zc	,	m-p135-p13s5w35
 viņai	pp3fsdn	viņa	m-p135-p13s5w36
-nemaz	q	nemaz	m-p135-p13s5w37
+nemaz	r0n	nemaz	m-p135-p13s5w37
 nebija	vcnisii30ay	būt	m-p135-p13s5w38
 jāpierāda	vmnd0t300an	pierādīt	m-p135-p13s5w39
 <g />
@@ -33178,7 +33178,7 @@ Lietuvu	npfsa4	Lietuva	m-p11954-p1s1w17
 kur	r0n	kur	m-p11954-p1s1w19
 viesojās	vmyisi230an	viesoties	m-p11954-p1s1w20
 Klaipēdas	npfsg4	Klaipēda	m-p11954-p1s1w21
-delfinārijā	ncfsl4	delfinārija	m-p11954-p1s1w22
+delfinārijā	ncmsl1	delfinārijs	m-p11954-p1s1w22
 un	cc	un	m-p11954-p1s1w23
 apmeklēja	vmnist230an	apmeklēt	m-p11954-p1s1w24
 “	zq	"	m-p11954-p1s1w25
@@ -34068,7 +34068,7 @@ tikuši	vmnpdmpnasnpn	tikt	m-d21-p15s4w12
 Vai	cc	vai	m-d21-p15s5w1
 tā	pd3fsnn	tā	m-d21-p15s5w2
 pati	pg0fsnn	pati	m-d21-p15s5w3
-Ikea	np0000	Ikea	m-d21-p15s5w4
+Ikea	npfsn4	Ikea	m-d21-p15s5w4
 <g />
 .	zs	.	m-d21-p15s5w5
 </s>
