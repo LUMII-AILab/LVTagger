@@ -1,10 +1,16 @@
 LV Tagger
 ----------------------------------------------
 
+**NB!** Starting 2027 we suggest using `https://github.com/LUMII-AILab/lvnlp for your tagging needs. Morphology library versions 3.202701.0 and up, as well, as Latvian (UD) Treebank 2.20 feature different tagset (some lexical features are not annotated anymore) and this tagger has not been retrained for updated tagset.
+
+----------------------------------------------
+
 Latvian morphological tagger (analysis + disambiguation) and named entity recognition module.
 
-(c) 2012 University of Latvia, Institute of Mathematics and Computer science
+
+(c) 2012-2026 University of Latvia, Institute of Mathematics and Computer science
 Machine learning code based on Stanford NLP kit at http://nlp.stanford.edu/software/
+
 
 ## LICENSE 
 
